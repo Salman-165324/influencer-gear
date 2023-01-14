@@ -7,12 +7,21 @@
     box-sizing: border-box;
 }
 
+body{
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
 /* nav styles */
 
 nav{
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 87px 120px 0px 120px;
 }
 
 .nav-menu-icon {
@@ -34,5 +43,5 @@ nav{
 .responsive-nav-items{
 
     padding-right: 34px ;
-    
+
 }
